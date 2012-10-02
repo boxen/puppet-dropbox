@@ -1,4 +1,9 @@
-# Puppet dropbox for Boxen
+# Dropbox Puppet Module for Boxen
 
-FIXME: update me bro
+Requires the `boxen` puppet module.
 
+## Usage
+
+```puppet
+include dropbox
+```
