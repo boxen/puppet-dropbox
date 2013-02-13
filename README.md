@@ -1,6 +1,7 @@
 # Dropbox Puppet Module for Boxen
 
-Requires the `boxen` puppet module.
+Install [Dropbox](http://www.dropbox.com), an easy way to share files
+and folders on Mac OS X.
 
 ## Usage
 
@@ -8,8 +9,11 @@ Requires the `boxen` puppet module.
 include dropbox
 ```
 
-## Developing
+## Required Puppet Modules
 
-Write code.
+* `boxen`
 
-Run `script/cibuild`.
+## Development
+
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.
