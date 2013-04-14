@@ -1,4 +1,6 @@
 # Dropbox Puppet Module for Boxen
+[![Build
+Status](https://travis-ci.org/boxen/puppet-dropbox.png?branch=master)](https://travis-ci.org/boxen/puppet-dropbox)
 
 Install [Dropbox](http://www.dropbox.com), an easy way to share files
 and folders on Mac OS X.
