@@ -6,6 +6,6 @@
 class dropbox {
   package { 'Dropbox':
     provider => 'appdmg',
-    source   => 'https://d1ilhw0800yew8.cloudfront.net/client/Dropbox%202.2.8.dmg'
+    source   => 'https://d1ilhw0800yew8.cloudfront.net/client/Dropbox%202.4.2.dmg'
   }
 }
