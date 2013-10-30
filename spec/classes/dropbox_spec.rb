@@ -3,7 +3,7 @@ require 'spec_helper'
 describe 'dropbox' do
   it do
     should contain_package('Dropbox').with({
-      :source   => 'https://www.dropbox.com/download?plat=mac',
+      :source   => 'https://d1ilhw0800yew8.cloudfront.net/client/Dropbox%202.4.5.dmg',
       :provider => 'appdmg'
     })
   end
