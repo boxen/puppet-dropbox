@@ -14,6 +14,7 @@ include dropbox
 ## Required Puppet Modules
 
 * `boxen`
+* `stdlib`
 
 ## Development
 
