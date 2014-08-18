@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'dropbox' do
-  params {
+  let(:params) {
     { :version => '2.10.3' }
   }
 
