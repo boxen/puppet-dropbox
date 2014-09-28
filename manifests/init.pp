@@ -3,9 +3,11 @@
 # Examples
 #
 #   include dropbox
-class dropbox {
+class dropbox (
+  $version = '2.10.28',
+){
   package { 'Dropbox':
     provider => 'appdmg',
-    source   => 'https://d1ilhw0800yew8.cloudfront.net/client/Dropbox%202.6.2.dmg'
+    source   => "https://d1ilhw0800yew8.cloudfront.net/client/Dropbox%20${version}.dmg",
   }
 }
