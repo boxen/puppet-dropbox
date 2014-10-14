@@ -4,7 +4,7 @@
 #
 #   include dropbox
 class dropbox (
-  $version = '2.10.28',
+  $version = '2.10.41',
 ){
   package { 'Dropbox':
     ensure   => installed,
